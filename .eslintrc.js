@@ -64,10 +64,6 @@ module.exports = {
     // 禁用 console
     "no-console": 1,
     // 'no-console': process.env.NODE_ENV === 'production' ? 'error': 'off',
-    /* // 还可以写表达式，厉害了~
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error': 'off',
-    'no-console': process.env.NODE_ENV === 'production' ? 'error': 'off', */
-
-    // ......
+    // 'no-debugger': process.env.NODE_ENV === 'production' ? 'error': 'off',
   },
 };

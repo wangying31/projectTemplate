@@ -6,6 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "prepare": "husky install",
+    "format": "npx prettier --write ./src",
+    "lint-cli": "vue-cli-service lint",
     "lint": "lint-staged --allow-empty"
   },
   "dependencies": {

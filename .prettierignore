@@ -1,8 +1,4 @@
-build/*.js
-src/assets
-public
-dist
 # 忽略打包的文件
-unpackage
+src/unpackage
 # 忽略uni-app官方的组件库错误和警告，官方的竟然通不过...
-components/uni-**
+src/components/uni-**
